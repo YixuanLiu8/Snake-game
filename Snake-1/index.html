@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Yixuan Liu">
+    <meta name="keywords" content="HTML, JavaScript">
+    <meta name="description" content="Main Page">
+    <title>Snake</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+    <h1>snake</h1>
+    <table class="main">
+      <tr>
+        <td class="box">
+          <input class="btn" type="button" value="start" id="startBtn">
+          <input class="btn" type="button" value="pause" id="pauseBtn">
+          <div id="main">
+          </div>
+          <div id="pBtn">
+            <input class="btn" type="button" value="up" id="upBtn" onclick=Up()><br>
+            <input class="btn" type="button" value="left" id="leftBtn"  onclick=Left()>
+
+            <input class="btn" type="button" value="right" id="rightBtn" onclick="Right()">
+            <br>
+            <input class="btn" type="button" value="down" id="downBtn" onclick="Down()">
+          </div>
+           <span class="level">Now you are in Level  <span id="slevel">1</span></span>
+        </td>
+        <td class="box">
+          <p> The game is over if your score is less than 0 or Snake reach the wall.<br />
+            If Snake eat...<br />
+            i)<b>red one:</b>Boom! Game is over!<br />
+            ii)<b>other color:</b>Earn 1 point of score! yeah!<br />
+            iii)<b>reach itself:</b>Count off 5 point of score! Not good!<br>
+            iii)<b>avoid red:</b>Get some very quick bonus food! Take chance and be careful with the red!<br>
+	    <p id="yscore">Your score: </p><span id="score">0</span><br>
+       <p id="ptime">pause times: </p><span id="time">0</span><br>
+            Best Score: <span id="bestscore">0</span><br><br>
+            Most Pause times:<span id="mostpause">0</span><br><br>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
+  <script type="text/javascript" src="Snake.js"></script>
+</html>

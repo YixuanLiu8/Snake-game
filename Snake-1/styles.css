@@ -1,0 +1,71 @@
+body {
+  background-color: #EEE9BF;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 200;
+  font-size: 4em;
+}
+
+
+.main {
+  text-align: center;
+  background-color: #EE6A50;
+  height: 80%;
+  width: 95%;
+  margin: 50px auto;
+  border: 5px solid;
+  color:#FAFAFA;
+}
+
+.box {
+  width: 50%;
+  height:400px;
+  padding: 5px auto;
+  background-color: #EE9A00;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: Times New Roman;
+  margin: 20px auto;
+}
+#pBtn{
+ margin: 20px auto;
+}
+
+.add {
+  font-size: 0.8em;
+  font-weight: 50;
+}
+#slevel{
+  color:red;
+    font-family: fantasy;
+}
+
+#startBtn,
+#pauseBtn,
+#mainBtn,
+#leftBtn,
+#rightBtn,
+#upBtn,
+#downBtn,
+#btn0,
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#submitBtn {
+  background: #EE9572;
+  border-radius: 0.5em;
+  font-family: STHupo;
+  font-size: 20px;
+}
+
+.hint {
+  color: #BCD2EE;
+  font-size: 1.0em;
+  font-weight: bold;
+  font-family: Microsoft JhengHei;
+  margin: 20px auto;
+}
